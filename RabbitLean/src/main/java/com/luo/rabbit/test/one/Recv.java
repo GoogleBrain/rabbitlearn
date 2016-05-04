@@ -6,7 +6,6 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.QueueingConsumer;
 
 public class Recv {
-	// 队列名称
 	private final static String QUEUE_NAME = "queue";
 
 	public static void main(String[] argv) throws java.io.IOException, java.lang.InterruptedException {
